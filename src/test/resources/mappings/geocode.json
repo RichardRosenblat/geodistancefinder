@@ -1,0 +1,96 @@
+{
+  "mappings": [{
+    "request": {
+      "method": "GET",
+      "urlPattern": "/maps/api/geocode/json\\?address=(.*)&key=(.*)"
+    },
+    "response": {
+      "status": 200,
+      "jsonBody": {
+        "results": [{
+          "address_components": [{
+              "long_name": "34",
+              "short_name": "34",
+              "types": [
+                "street_number"
+              ]
+            },
+            {
+              "long_name": "Rua Dezenove de Fevereiro",
+              "short_name": "R. Dezenove de Fevereiro",
+              "types": [
+                "route"
+              ]
+            },
+            {
+              "long_name": "Botafogo",
+              "short_name": "Botafogo",
+              "types": [
+                "political",
+                "sublocality",
+                "sublocality_level_1"
+              ]
+            },
+            {
+              "long_name": "Rio de Janeiro",
+              "short_name": "Rio de Janeiro",
+              "types": [
+                "administrative_area_level_2",
+                "political"
+              ]
+            },
+            {
+              "long_name": "Rio de Janeiro",
+              "short_name": "RJ",
+              "types": [
+                "administrative_area_level_1",
+                "political"
+              ]
+            },
+            {
+              "long_name": "Brazil",
+              "short_name": "BR",
+              "types": [
+                "country",
+                "political"
+              ]
+            },
+            {
+              "long_name": "22280-030",
+              "short_name": "22280-030",
+              "types": [
+                "postal_code"
+              ]
+            }
+          ],
+          "formatted_address": "R. Dezenove de Fevereiro, 34 - Botafogo, Rio de Janeiro - RJ, 22280-030, Brazil",
+          "geometry": {
+            "location": {
+              "lat": -22.9507467,
+              "lng": -43.1876525
+            },
+            "location_type": "RANGE_INTERPOLATED",
+            "viewport": {
+              "northeast": {
+                "lat": -22.9493815697085,
+                "lng": -43.1862230697085
+              },
+              "southwest": {
+                "lat": -22.9520795302915,
+                "lng": -43.1889210302915
+              }
+            }
+          },
+          "place_id": "Ek9SLiBEZXplbm92ZSBkZSBGZXZlcmVpcm8sIDM0IC0gQm90YWZvZ28sIFJpbyBkZSBKYW5laXJvIC0gUkosIDIyMjgwLTAzMCwgQnJhemlsIjASLgoUChIJZQ6QZO9_mQARNMTuJNhQt5wQIioUChIJsyfVbeV_mQARF8OWkFBDVWc",
+          "types": [
+            "street_address"
+          ]
+        }],
+        "status": "OK"
+      },
+      "headers": {
+        "Content-Type": "application/json"
+      }
+    }
+  }]
+}

@@ -1,0 +1,12 @@
+{"properties": [
+  {
+    "name": "google.url",
+    "type": "java.lang.String",
+    "description": "url for usage of google API"
+  },
+  {
+    "name": "google.key",
+    "type": "java.lang.String",
+    "description": "key for usage of google API"
+  }
+]}
